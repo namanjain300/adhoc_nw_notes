@@ -35,5 +35,6 @@ setfacl -m u:u4:rx /check   -> setfacl= set file access control list; m= modify;
 setfacl -m g:tech:rx /check -> for group
 setfacl /check              -> to check all the permission of all the users
 setfacl -x u:u4 /check      -> x= removing the permissions
+getfacl /check              -> to see all the permissions
 
 umask is a factor  which decide the by default permissions of a file or a directory
