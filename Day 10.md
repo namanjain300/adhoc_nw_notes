@@ -96,7 +96,7 @@ To go to running container; admiring_euclid= Container name
 ```
 docker attach admiring_euclid
 ```
-For making user input container name
+For making user input container name; fedora= OS Name
 ```
 docker run -it --name c1 fedora bash
 ```
@@ -120,13 +120,30 @@ Revision:-
 * start
 * stop
 
-
-
-
-
-
-
-
+Remove all the images of contauners
+```
+docker rmi DOCKER_IMAGE_
+```
+shows all the image id of containers
+```
+docker ps -qa
+```
+for removing all the containers at one time 
+```
+docker rm $(docker ps -qa)
+```
+made a Centos OS Container and then do ping
+```
+docker run -it centos:7 ping 8.8.8.8
+```
+shows the config info of container; elated_yonath= container name
+```
+docker inspect elated_yonath
+```
+searches ipadd word line and prints it
+```
+docker inspect elated_yonath | grep -i ipadd
+```
 
 
 
