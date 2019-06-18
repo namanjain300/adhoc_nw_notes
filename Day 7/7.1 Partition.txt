@@ -41,7 +41,7 @@ mount /dev/xvdf1 /mnt/mypart    -> mount the partition in /mnt/mypart
 if we mount in /media, icon will be shown
 
 for permananting the mounting storage go to /etc/fstab and add:- 
-/dev/xvdf1 /mnt.mypart xfs  
+/dev/xvdf1 /mnt/mypart xfs  
 
 => mount -a                        -> for confirming that mounting is done successfully by the command
 
