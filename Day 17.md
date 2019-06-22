@@ -125,8 +125,8 @@ for configure for credentials
 ```
 aws configure
 
-AWS Access Key ID [None]: AKIAJMRIE54W25LPTH5Q
-AWS Secret Access Key [None]: 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
+AWS Access Key ID [None]: _KEY_
+AWS Secret Access Key [None]: _SECRET_KEY_
 Default region name [None]: ap-south-1b
 Default output format [None]: json
 ```
