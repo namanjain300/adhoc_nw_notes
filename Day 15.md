@@ -83,5 +83,3 @@ Spot Instances
 * What are the shutdown behaviours :- Stop, Terminate
 * What is Tenancy
 * T2/T3 Unlimited -> for using internet having very fast speed
-
-
