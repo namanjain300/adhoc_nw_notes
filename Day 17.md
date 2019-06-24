@@ -141,12 +141,13 @@ vim launchinstances.yml
  - hosts: localhost
    tasks:
     - ec2:
-        image: ami-5b673c34
-        region: ap-south-1
-        key_name: ansible
-        instance_type: t2.micro
-        wait: no
-        count: 1x
+       image: ami-5b673c34
+       region: ap-south-1
+       group: naman
+       key_name: ansible
+       instance_type: t2.micro
+       wait: no
+       count: 1x
 ```
 
 lists all the modules
@@ -290,4 +291,4 @@ rm -rf /etc/profile.d/.motd.sh.swp
 cat /proc/cpuinfo | grep -w 'model name' | awk -F: '{print $2}'
 cat /proc/meminfo | grep -w "MemTotal" | awk -F: '{print $2 / 1000}'
 cat /proc/swaps
-```
+``` 
