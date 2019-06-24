@@ -111,4 +111,3 @@ O/P:
 
 * http://slashbigdata.blogspot.com/2017/07/hadoop-v1-vs-hadoop-v2.html?m=1
 
-

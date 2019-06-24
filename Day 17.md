@@ -291,12 +291,3 @@ cat /proc/cpuinfo | grep -w 'model name' | awk -F: '{print $2}'
 cat /proc/meminfo | grep -w "MemTotal" | awk -F: '{print $2 / 1000}'
 cat /proc/swaps
 ```
-
-
-
-
-
-
-
-
-
