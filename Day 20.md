@@ -75,7 +75,7 @@ Minimum and Maximum Limit of EBS Storage is 1GB to 16TB
 * Block Storage
 * Min:- 1 GiB 
     * Difference b/w GB and GiB is 
-        * 1GB = 1000 KB and 1GiB = 1024 KiB
+        * 1GB = 1000 MB and 1GiB = 1024 MiB
 * Max:- 16384 GiB
 * Can we attach one EBS in more than one EC2 ->  According to amazon, NO so answer is **NO** but we can do it.
 * Can we take more than 16 GB in one EBS -> Go to Support section for that

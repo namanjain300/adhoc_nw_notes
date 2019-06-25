@@ -76,7 +76,7 @@ and if you're a namenode then enter
 </configuration>
 ```
 
-4. Set hostname by your Public DNS
+4. Set hostname by your Public DNS of particular instance
 ```
 hostname set-hostname ec2-13-127-76-119.ap-south-1.compute.amazonaws.com
 ```
