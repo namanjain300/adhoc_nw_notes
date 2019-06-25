@@ -7,7 +7,7 @@ For showing the name of any file or folder by pressing tab as happens in Linux:-
 ```
 **Creating nfs Server for downloading and uploading files from another system:-**
 ```
-yum install nfs-utils -y                                          
+yum install nfs-utils -y
 ```
 
 ```
@@ -17,21 +17,33 @@ systemctl start nfs-server
 
 systemctl enable nfs-server.service
 ```
-rpm= Redhat Packet Manager; q= query; nfs-utils= Package name; c= config files
+For checking whether nfs-utils is installed in system or not; rpm= Redhat Packet Manager; q= query; nfs-utils= Package name; c= config files
 ```
 rpm -q nfs-utils
 rpm -qc nfs-utils
 ```
 
-```vi /etc/exports``` ro= read only
+```vi /etc/exports``` ro= read only; /nfs= Shared folder name; rw= read write;
+
+ no_root_squash : By default, any file request made by user root on the client machine is treated as by user nobody on the server. (Exactly which UID the request is mapped to depends on the UID of user “nobody” on the server, not the client.) If no_root_squash is selected, then root on the client machine will have the same level of access to the files on the system as root on the server.
 ```
 /nfs    *(ro)
 ```
-For updating the exports file/ Reload exports file
+OR
+```
+/nfs *(rw,no_root_squash)
+```
+For exporting shared folder; updating the exports file/ Reload exports file
 ```
 exportfs -r
 ```
+### Client Instance Work:-
 Tells what server is sharing; 13.232.229.182= Public IP
+
+Shows the shared mounted folders
+```
+showmount -e
+```
 ```
 showmount -e 13.232.229.182
 
@@ -43,6 +55,9 @@ Export list for 13.232.229.182:
 ```
 mount 13.232.229.182:/nfs 
 ```
+## References
+* https://foxutech.com/how-to-install-and-configure-nfs
+
 # **Python**
 
 
