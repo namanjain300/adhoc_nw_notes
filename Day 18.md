@@ -78,7 +78,7 @@ and if you're a namenode then enter
 
 4. Set hostname by your Public DNS of particular instance
 ```
-hostname set-hostname ec2-13-127-76-119.ap-south-1.compute.amazonaws.com
+hostnamectl set-hostname ec2-13-127-76-119.ap-south-1.compute.amazonaws.com
 ```
 5. Now enter your Private IP and your Public DNS in ```NameNode``` as it is written in ```**``` and keep writing the private IP and DNS of ```DataNode``` in ```NameNode /etc/hosts```
 

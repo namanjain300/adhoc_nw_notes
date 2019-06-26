@@ -21,11 +21,11 @@ qrencode -s 16X16 -o adhoc.png https://www.adhocnw.org
 ```
 
 ## Docker
-* It is a rechnology which provide us platform to do multiple type of things in a single platform in a system.
+* It is a technology which provide us platform to do multiple type of things in a single platform in a system.
 * Docker is a platform provider.
 * We can use Docker to provide enviornment for website, Apps, Console application etc.
 * Docker can be used to build hadoop platform.
-* It is a platform ehich can run on any platform.
+* It is a platform which can run on any platform.
 * Docker uses your base OS kernel to build new operating system, it means if you have windows as your base system on which docker is installed, then Windows NT kernel will be used to build new OS.
 
 ```
