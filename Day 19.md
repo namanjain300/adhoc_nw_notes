@@ -70,7 +70,7 @@ step  4 :   setup  Namenode  first
    30  sudo  vi  /etc/hosts
    31  hostname
    32  ls
-   33  cd   hadoop2/
+   33  cd   hadoop2 /
    34  ls
    35  cd  etc/
    36  ls
