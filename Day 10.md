@@ -28,6 +28,9 @@ qrencode -s 16X16 -o adhoc.png https://www.adhocnw.org
 * It is a platform which can run on any platform.
 * Docker uses your base OS kernel to build new operating system, it means if you have windows as your base system on which docker is installed, then Windows NT kernel will be used to build new OS.
 
+## Installation of Docker
+import .repo of kubernetes from index of summer19 of adhoc for installation of Docker
+
 ```
 rpm -q docker
 systemctl status docker
@@ -120,7 +123,7 @@ Revision:-
 * start
 * stop
 
-Remove all the images of contauners
+Remove all the images of containers
 ```
 docker rmi DOCKER_IMAGE_
 ```
