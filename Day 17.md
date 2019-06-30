@@ -214,7 +214,7 @@ passwd root
 ```
 this command updates the ```unlabeled_t``` to ```shadow_t``` for reading the root passwords
 ```
-restorecon
+restorecon /etc/shadow
 ```
 Shadow file contains all user's passwords; Z= show security content
 ```
