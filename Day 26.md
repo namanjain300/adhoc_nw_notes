@@ -185,9 +185,3 @@ yum install vdo kmod-kvdo
 ```
 vdo create --name=vdo1 --device=/dev/vdd1 --vdoLogicalSize=50G
 ```
----
-# **RHEL Lab**
-```
-rhel8reset
-```
-
