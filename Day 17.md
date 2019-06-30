@@ -58,9 +58,16 @@ For downloading a file from a link in RedHat as in this example we are downloadi
 ```
 wget http://13.234.66.67/summer19/bigdata/hadoop-2.7.3.tar.gz
 ```
+```
+wget http://monalisa.cern.ch/MONALISA/download/java/jdk-8-linux-x64.rpm
+```
 For installing
 ```
 sudo rpm -ivh jdk-8-linux-x64.rpm
+```
+With no dependencies
+```
+sudo rpm -ivh jdk-8-linux-x64.rpm --nodeps
 ```
 For verifying
 ```

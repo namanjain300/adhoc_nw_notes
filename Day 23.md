@@ -37,12 +37,27 @@ bind-address=127.0.0.1
 # REDHAT
 
 Changes in ```cat /etc/sysconfig/network-scripts/ifcfg-ens3``` [ens3=ETHERNET] for making dhcp address to static address
+
+We have to add IPADDR variable by outselves and insert the new IP address
 ```
 BOOTPROTO
 ONBOOT YES
 IPADDR
+GATEWAY
+DNS
+NETMASK
 ```
-
+Example:-
+```
+IPADDR=192.168.10.101
+GATEWAY=192.168.10.1
+DNS=192.168.10.254
+NETMASK=255.255.255.0
+```
+command for checking the destination, gateway, genmask,
+```
+route -n
+```
 
 ---
 
