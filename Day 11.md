@@ -106,4 +106,4 @@ Main topics:
 ---
 ## Python 2
 
-* Socket(UDP Protocol) - IP and PORT no.
+* Socket(UDP Protocol) - IP and PORT no

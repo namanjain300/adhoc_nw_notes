@@ -25,6 +25,8 @@
 pip3 install pandas seaborn
 ```
 
+```Python program of Pandas and for data visualize is  in Google Colab```
+
 ---
 
 # Cloud
@@ -58,10 +60,23 @@ systemctl enable chronyd
 ```
 rpm -qc chrony
 ```
-```vi chrony.conf```
+```vi /etc/chrony.conf```
 
+comment it 
 ```
-chronyc
+pool 2.rhel.pool.ntp.org iburst
+```
+then write the server instead of it
+```
+server adhoc.example.com
+```
+```
+systemctl restart chronyd
+systemctl enable chronyd
+```
+```
+chronyc sourcestats
+chronyc tracking
 ```
 
 ### **Swap:- For making HDD memory as a RAM**

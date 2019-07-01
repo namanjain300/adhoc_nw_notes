@@ -72,7 +72,7 @@ route -n
 * User Management and Group Management
 * Permissions
 * Stratis
-* VDO(Virtual Disk Optimiser)
+* VDO (Virtual Disk Optimiser)
 * Tuning
 * Yum and RPM
 * Password Break
