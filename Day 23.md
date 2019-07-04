@@ -61,20 +61,3 @@ route -n
 
 ---
 
-# **Topics for RHCSA EXAM/ Redhat Exam:-**
-
-* Shell
-* IO Redirection
-* Archieve(TAR) and Compression
-* NTP Client
-* Partition
-* LVM
-* User Management and Group Management
-* Permissions
-* Stratis
-* VDO (Virtual Disk Optimiser)
-* Tuning
-* Yum and RPM
-* Password Break
-* IP Static
-* Crontab
