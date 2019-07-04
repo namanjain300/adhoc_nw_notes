@@ -16,7 +16,7 @@
     * Data Processing
         * Storage -> own storage, HDFS use
         * Processing -> own processing, YARN
-        * SQL Data -> apache sql (HDFS -> similar with HIVE - HQL)
-        * Live Stream -> By default supported ( HDFS -> as in apache storm)
+        * SQL Data -> apache sql (similar with HIVE - HQL)
+        * Live Stream -> By default supported (as in apache storm)
         * AI/ML -> spark -> MLIB (HDFS -> apache mahout)
         * Analytics/Visual -> spark GraphX
